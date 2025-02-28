@@ -349,3 +349,12 @@ footer {
         margin-bottom: 10px;
     }
 }
+.social-icon img {
+    width: 24px;
+    height: 24px;
+    filter: invert(1); 
+}
+
+.social-icon:hover img {
+    filter: invert(0.8); 
+}
